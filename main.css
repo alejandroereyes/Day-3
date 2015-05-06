@@ -1,4 +1,5 @@
 /*day 3 HW - turn CSS into SASS*/
+/*blue*/
 a {
   text-decoration: none; }
 
@@ -6,12 +7,17 @@ img {
   max-width: 100%;
   max-width: 100%; }
 
-/*blue*/
+p {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px; }
+
 .top {
   height: 48px;
   background-color: #118BC0; }
 
-.logo {
+.top .logo {
   height: 32px;
   width: 32px;
   margin: 0 auto;
@@ -20,7 +26,7 @@ img {
   background-size: cover;
   float: left; }
 
-.fullName {
+.top .fullName {
   height: 32px;
   width: 118px;
   margin-top: 8px;
@@ -31,10 +37,10 @@ img {
   font-family: sans-serif;
   color: white; }
 
-.com {
+.top .com {
   color: #B4D5E5; }
 
-.logIn {
+.top .logIn {
   height: 48px;
   width: 74px;
   box-sizing: border-box;
@@ -44,29 +50,32 @@ img {
   text-align: center;
   padding: 15px 0px; }
 
+.top .logo {
+  height: 32px;
+  width: 32px;
+  margin: 0 auto;
+  margin: 8px 15px;
+  background-image: url("src/logo.png");
+  background-size: cover;
+  float: left; }
+
 .main {
   height: 1110px;
   background-image: url("src/crowd.jpg");
   background-size: cover;
   padding: 20px; }
 
-p {
-  color: white;
-  font-family: sans-serif;
-  text-align: center;
-  font-size: 30px; }
-
-.offer {
+.main .offer {
   margin: 0 auto;
   height: 31px;
   margin-top: 166px;
   margin-bottom: 40px; }
 
-.bestPlace {
-  margin-top: 40px; }
-
-.slogan {
+.main .slogan {
   font-size: 1em; }
+
+.main .bestPlace {
+  margin-top: 40px; }
 
 .createBox {
   height: 61px;
@@ -170,21 +179,20 @@ p {
   border-left-width: 10px;
   padding: 24px 16px 36px 16px; }
 
-.f.large {
-  height: 284px; }
-
-.f.topf {
-  border-top-width: 32px; }
-
-.f.bottomf {
-  border-bottom-width: 30px; }
-
-.midGray {
+.f .midGray {
   background-color: white;
   /*mid gray*/
   float: center; }
 
-.midGray.Sq {
+.f .midGray .f_tag {
+  color: #284B75;
+  vertical-align: middle;
+  font-size: 22px; }
+
+.f .midGray .f_descrip {
+  line-height: 1.5; }
+
+.f .midGray.Sq {
   background-color: #C7D2D8;
   height: 62px;
   width: 62px;
@@ -193,54 +201,55 @@ p {
   border-radius: 50%;
   border: 14px solid #C7D2D8; }
 
-.lightbulb {
-  background-image: url("src/lightbulb.png");
-  background-size: cover; }
-
-.cloud {
-  background-image: url("src/cloud.png");
-  background-size: cover; }
-
-.code {
-  background-image: url("src/code.png");
-  background-size: cover; }
-
-.comments {
-  background-image: url("src/comments.png");
-  background-size: cover; }
-
-.gift {
-  background-image: url("src/gift.png");
-  background-size: cover; }
-
-.globe {
-  background-image: url("src/globe.png");
-  background-size: cover; }
-
-.midGray.thinBar {
+.f .midGray.thinBar {
   height: 22px;
   margin-top: 12px;
   margin-bottom: 18px;
   text-align: center;
   line-height: 22px; }
 
-.f_tag {
-  color: #284B75;
-  vertical-align: middle;
-  font-size: 22px; }
-
-.f_descrip {
-  line-height: 1.5; }
-
-.midGray.regBar {
+.f .midGray.regBar {
   height: 70px;
   text-align: center;
   padding: 0px 5px; }
 
-.midGray.fatBar {
+.f .midGray.fatBar {
   height: 80px;
   text-align: center;
   padding: 0px 5px; }
+
+.f .lightbulb {
+  background-image: url("src/lightbulb.png");
+  background-size: cover; }
+
+.f .cloud {
+  background-image: url("src/cloud.png");
+  background-size: cover; }
+
+.f .code {
+  background-image: url("src/code.png");
+  background-size: cover; }
+
+.f .comments {
+  background-image: url("src/comments.png");
+  background-size: cover; }
+
+.f .gift {
+  background-image: url("src/gift.png");
+  background-size: cover; }
+
+.f .globe {
+  background-image: url("src/globe.png");
+  background-size: cover; }
+
+.f.large {
+  height: 284px; }
+
+.f.topf {
+  border-top-width: 32px; }
+
+.f.bottomf {
+  border-bottom-width: 30px; }
 
 .lightBlue.end {
   height: 170px;
