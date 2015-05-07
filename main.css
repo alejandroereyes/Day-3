@@ -279,7 +279,7 @@ p {
   box-sizing: border-box;
   background-color: black; }
 
-.builder {
+.black .builder {
   height: 15px;
   border-sizing: border-box;
   background-size: cover;
@@ -287,17 +287,17 @@ p {
   margin: 0 auto;
   margin: 50px 40% 0px 41%; }
 
-.automattic {
+.black .builder .automattic {
   height: 22px;
   width: 160px; }
 
-.bottomLine1 {
+.black .bottomLine1 {
   height: 16px;
   margin: 0 auto;
   padding: 10px;
   text-align: center; }
 
-.bottomLinks {
+.black .bottomLine1 .bottomLinks {
   color: white;
   font-size: 13px;
   display: inline-block;

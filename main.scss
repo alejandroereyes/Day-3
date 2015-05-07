@@ -338,37 +338,38 @@ p {
 	padding: 10px;
 	box-sizing: border-box;
 	background-color: black;
+
+	.builder {
+		height: 15px;
+		border-sizing: border-box;
+		background-size: cover;
+		background-color: black;
+		margin: 0 auto;
+		margin: 50px 40% 0px 41%;
+
+		.automattic {
+			height: 22px;
+			width: 160px
+		}
+	}
+
+	.bottomLine1 {
+		height: 16px;
+		margin: 0 auto;
+		padding: 10px;
+		text-align: center;
+
+		.bottomLinks {
+			color: white;
+			font-size: 13px;
+			display: inline-block;
+			margin: 5px 10px 15px 5px;
+			text-decoration: none;
+			position: center;
+		}
+	}
 }
 
-.builder {
-	height: 15px;
-	border-sizing: border-box;
-	background-size: cover;
-	background-color: black;
-	margin: 0 auto;
-	margin: 50px 40% 0px 41%;
 
-}
-
-.automattic {
-	height: 22px;
-	width: 160px
-}
-
-.bottomLine1 {
-	height: 16px;
-	margin: 0 auto;
-	padding: 10px;
-	text-align: center;
-}
-
-.bottomLinks {
-	color: white;
-	font-size: 13px;
-	display: inline-block;
-	margin: 5px 10px 15px 5px;
-	text-decoration: none;
-	position: center;
-}
 
 
