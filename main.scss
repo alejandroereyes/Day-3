@@ -23,6 +23,8 @@ p {
 	font-size: 30px;
 }
 
+//Styling
+
 .top {
 	height: 48px;
 	background-color: $button-color;
@@ -195,12 +197,13 @@ p {
 	text-align: center;
 	font-size: 22px;
 	line-height: 188px;
-}
 
-.speech1 {
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 2;
+	.speech1 {
+		display: inline-block;
+		vertical-align: middle;
+		line-height: 2;
+	}
+
 }
 
 .f {
