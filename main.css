@@ -180,9 +180,7 @@ p {
   padding: 24px 16px 36px 16px; }
 
 .f .midGray {
-  background-color: white;
-  /*mid gray*/
-  float: center; }
+  background-color: white; }
 
 .f .midGray .f_tag {
   color: #284B75;

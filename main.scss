@@ -5,6 +5,7 @@ $button-color: #118BC0; /*blue*/
 $log-in-color: #0070A4; //dark blue
 $icon-back-color: #C7D2D8; //mid gray
 $f-border-color: #D1D3D7; //light gray
+$f-tag-color: #284B75; //light blue gray
 
 // constants
 a {
@@ -44,7 +45,7 @@ p {
 		width: 118px;
 		margin-top: 8px;
 		margin-bottom: 8px;
-		background-color: #118BC0;
+		background-color: $button-color;
 		float: left;
 		padding-top: 5px;
 		font-family: sans-serif;
@@ -218,13 +219,12 @@ p {
 	border-left-width: 10px;
 	padding: 24px 16px 36px 16px;
 
+
 	.midGray {
-		background-color: white; /*mid gray*/
-		float: center;
-	
+		background-color: white;
 
 		.f_tag {
-			color: #284B75;
+			color: $f-tag-color;
 			vertical-align: middle;
 			font-size: 22px;
 		}
@@ -293,7 +293,6 @@ p {
 		background-image: url("src/globe.png");
 		background-size: cover;
 	}
-
 }
 
 .f.large {
@@ -349,7 +348,7 @@ p {
 
 		.automattic {
 			height: 22px;
-			width: 160px
+			width: 160px;
 		}
 	}
 
