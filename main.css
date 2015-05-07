@@ -71,13 +71,13 @@ p {
   margin-top: 166px;
   margin-bottom: 40px; }
 
-.main .slogan {
-  font-size: 1em; }
-
 .main .bestPlace {
   margin-top: 40px; }
 
-.createBox {
+.main .bestPlace .slogan {
+  font-size: 1em; }
+
+.main .createBox {
   height: 61px;
   width: 227px;
   box-sizing: border-box;
@@ -91,7 +91,7 @@ p {
   padding: 19px 0px;
   box-shadow: -1px 1px 0px 11px rgba(0, 0, 0, 0.4); }
 
-.pointer {
+.main .pointer {
   height: 21px;
   width: 50px;
   margin: 0 auto;
@@ -100,24 +100,12 @@ p {
   font-size: 50px;
   text-align: center; }
 
-.buzzWords {
+.main .buzzWords {
   height: 70px;
   width: 302px;
   margin: 0 auto; }
 
-.buzzWords.a {
-  margin-top: 133px;
-  margin-bottom: 15px; }
-
-.buzzWords.b {
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-.buzzWords.c {
-  margin-top: 15px;
-  margin-bottom: 77px; }
-
-.gray_small {
+.main .buzzWords .gray_small {
   height: 58px;
   width: 50px;
   margin: 0 auto;
@@ -126,31 +114,43 @@ p {
   background-size: 90% 90%;
   background-repeat: no-repeat; }
 
-.buzzWords.a .gray_small {
-  background-image: url("src/tablet.png"); }
-
-.buzzWords.b .gray_small {
-  background-image: url("src/newspaper.png"); }
-
-.buzzWords.c .gray_small {
-  background-image: url("src/paint-brush.png"); }
-
-.gray_long {
+.main .buzzWords .gray_long {
   height: 70px;
   width: 247px;
   box-sizing: border-box;
   float: right;
   padding: 6px 5px 0px 0px; }
 
-.b_tag {
+.main .buzzWords .gray_long .b_tag {
   color: white;
   font-size: 20px; }
 
-.b_descrip {
+.main .buzzWords .gray_long .b_descrip {
   color: white;
   font-size: 14px;
   display: block;
   line-height: 2; }
+
+.main .buzzWords.a {
+  margin-top: 133px;
+  margin-bottom: 15px; }
+
+.main .buzzWords.b {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.main .buzzWords.c {
+  margin-top: 15px;
+  margin-bottom: 77px; }
+
+.main .buzzWords.a .gray_small {
+  background-image: url("src/tablet.png"); }
+
+.main .buzzWords.b .gray_small {
+  background-image: url("src/newspaper.png"); }
+
+.main .buzzWords.c .gray_small {
+  background-image: url("src/paint-brush.png"); }
 
 .lightBlue {
   height: 188px;
