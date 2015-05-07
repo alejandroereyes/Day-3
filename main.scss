@@ -7,6 +7,9 @@ $icon-back-color: #C7D2D8; //mid gray
 $f-border-color: #D1D3D7; //light gray
 $f-tag-color: #284B75; //light blue gray
 
+//font
+$page-font: sans-serif;
+
 // constants
 a {
 	text-decoration: none;
@@ -19,7 +22,7 @@ img {
 
 p {
 	color: white;
-	font-family: sans-serif;
+	font-family: $page-font;
 	text-align: center;
 	font-size: 30px;
 }
@@ -48,7 +51,7 @@ p {
 		background-color: $button-color;
 		float: left;
 		padding-top: 5px;
-		font-family: sans-serif;
+		font-family: $page-font;
 		color: white;
 	}
 
@@ -107,7 +110,7 @@ p {
 		background-color: $button-color;
 		margin-top: 30px;
 		color: white;
-		font-family: sans-serif;
+		font-family: $page-font;
 		font-size: 22px;
 		text-align: center;
 		padding: 19px 0px;
@@ -194,7 +197,7 @@ p {
 	box-sizing: border-box;
 	background-color: #E8F0F5;
 	color: #344051;
-	font-family: sans-serif;
+	font-family: $page-font;
 	text-align: center;
 	font-size: 22px;
 	line-height: 188px;
@@ -218,6 +221,7 @@ p {
 	border-right-width: 10px;
 	border-left-width: 10px;
 	padding: 24px 16px 36px 16px;
+
 
 
 	.midGray {
@@ -326,7 +330,7 @@ p {
 		background-color: $button-color;
 		color: white;
 		font-size: 22px;
-		font-family: sans-serif;
+		font-family: $page-font;
 		text-align: center;
 		padding: 12px 0px;
 	}	
@@ -368,7 +372,6 @@ p {
 		}
 	}
 }
-
 
 
 
