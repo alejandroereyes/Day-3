@@ -110,7 +110,7 @@ p {
 		font-size: 22px;
 		text-align: center;
 		padding: 19px 0px;
-		box-shadow: -1px 1px 0px 11px rgba(0, 0, 0, 0.40);
+		box-shadow: -1px 1px 0px 11px rgba(0, 0, 0, 0.30);
 	}
 
 	.pointer {
@@ -313,24 +313,24 @@ p {
 	padding: 20px;
 	line-height: 1;
 	padding: 20px;
-}
 
-.end_stat {
-	line-height: 2;
-}
+	.end_stat {
+		line-height: 2;
+	}
 
-.createBoxEnd {
-	height: 50px;
-	width: 227px;
-	box-sizing: border-box;
-	margin: 0 auto;
-	margin-top: 35px;
-	background-color: $button-color;
-	color: white;
-	font-size: 22px;
-	font-family: sans-serif;
-	text-align: center;
-	padding: 12px 0px;
+	.createBoxEnd {
+		height: 50px;
+		width: 227px;
+		box-sizing: border-box;
+		margin: 0 auto;
+		margin-top: 35px;
+		background-color: $button-color;
+		color: white;
+		font-size: 22px;
+		font-family: sans-serif;
+		text-align: center;
+		padding: 12px 0px;
+	}	
 }
 
 .black {

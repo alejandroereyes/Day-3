@@ -89,7 +89,7 @@ p {
   font-size: 22px;
   text-align: center;
   padding: 19px 0px;
-  box-shadow: -1px 1px 0px 11px rgba(0, 0, 0, 0.4); }
+  box-shadow: -1px 1px 0px 11px rgba(0, 0, 0, 0.3); }
 
 .main .pointer {
   height: 21px;
@@ -257,10 +257,10 @@ p {
   line-height: 1;
   padding: 20px; }
 
-.end_stat {
+.lightBlue.end .end_stat {
   line-height: 2; }
 
-.createBoxEnd {
+.lightBlue.end .createBoxEnd {
   height: 50px;
   width: 227px;
   box-sizing: border-box;
